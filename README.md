@@ -3,4 +3,4 @@
 ## Environment Variables
 
 Within the config.env file, the additional environment variables were used:
-* MONGO_URI=<conection string>
+* MONGO_URI=`<conection string>`
