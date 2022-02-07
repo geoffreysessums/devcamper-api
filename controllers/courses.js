@@ -96,7 +96,7 @@ exports.updateCourse = asyncHandler(async (req, res, next) => {
     });
 });
 
-// @desc    delete course
+// @desc    Delete course
 // @route   DELETE /api/v1/courses/:id
 // @access  Private
 exports.deleteCourse = asyncHandler(async (req, res, next) => {
@@ -109,7 +109,7 @@ exports.deleteCourse = asyncHandler(async (req, res, next) => {
         );
     }
 
-    await Course.deleteOne(course);
+    course.deleteOne();
 
     res.status(200).json({
         success: true,
