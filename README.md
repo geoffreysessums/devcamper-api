@@ -8,3 +8,5 @@ Within the config.env file, the additional environment variables were used:
 * GEOCODER_API_KEY=`<google-provided-key>`
 * FILE_UPLOAD_PATH=./public/uploads
 * MAX_FILE_UPLOAD=1000000
+* JWT_SECRET=`<secret-string>`
+* JWT_EXPIRE=30d
