@@ -10,3 +10,4 @@ Within the config.env file, the additional environment variables were used:
 * MAX_FILE_UPLOAD=1000000
 * JWT_SECRET=`<secret-string>`
 * JWT_EXPIRE=30d
+* JWT_COOKIE_EXPIRE=30
