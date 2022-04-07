@@ -2,7 +2,7 @@
 
 ## Description
 
-A RESTful API Bootcamp directory app built with Node.js, Express.js, MongoDB, and more.
+A RESTful API bootcamp directory app built with Node.js, Express.js, MongoDB, and more.
 
 ## Environment Variables
 
