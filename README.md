@@ -1,5 +1,9 @@
 # devcamper-api
 
+## Description
+
+A RESTful API Bootcamp directory app built with Node.js, Express.js, MongoDB, and more.
+
 ## Environment Variables
 
 Within the config.env file, the additional environment variables were used:
